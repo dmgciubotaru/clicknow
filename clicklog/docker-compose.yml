@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  logger:
+    build: .
+    ports:
+      - "80:80"
+    volumes:
+    - ./:/log
+volumes:
+  accesslog:

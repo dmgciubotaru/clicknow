@@ -1,0 +1,116 @@
+[hprox] > [INFO]	====================
+[hprox] > [INFO]	Request Started
+[hprox] > [DEBUG]	Client Address 127.0.0.1:54411
+[hprox] > [DEBUG]	GET / HTTP/1.1
+[hprox] > [DEBUG]	Host                : 127.0.0.1:8080
+[hprox] > [DEBUG]	Connection          : keep-alive
+[hprox] > [DEBUG]	Cache-Control       : max-age=0
+[hprox] > [DEBUG]	Upgrade-Insecure-Requests: 1
+[hprox] > [DEBUG]	User-Agent          : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36
+[hprox] > [DEBUG]	Accept              : text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+[hprox] > [DEBUG]	Sec-Fetch-Site      : none
+[hprox] > [DEBUG]	Sec-Fetch-Mode      : navigate
+[hprox] > [DEBUG]	Sec-Fetch-User      : ?1
+[hprox] > [DEBUG]	Sec-Fetch-Dest      : document
+[hprox] > [DEBUG]	Accept-Encoding     : gzip, deflate, br
+[hprox] > [DEBUG]	Accept-Language     : en-US,en;q=0.9,ro;q=0.8
+[hprox] > [DEBUG]	Cookie              : PGADMIN_INT_KEY=61034cfb-c822-46ea-a60c-43a4b810042d; PGADMIN_LANGUAGE=en
+[urllib3.connectionpool] > [DEBUG]	Starting new HTTPS connection (1): docs.python.org:443
+[urllib3.connectionpool] > [DEBUG]	https://docs.python.org:443 "GET // HTTP/1.1" 421 28
+[hprox] > [INFO]	127.0.0.1 - - [27/Feb/2021 16:49:02] "GET / HTTP/1.1" 421 -
+[hprox] > [INFO]	Request Ended
+[hprox] > [INFO]	====================
+[hprox] > [INFO]	
+[hprox] > [INFO]	
+[hprox] > [INFO]	
+[hprox] > [INFO]	====================
+[hprox] > [INFO]	Request Started
+[hprox] > [INFO]	Request Ended
+[hprox] > [INFO]	====================
+[hprox] > [INFO]	
+[hprox] > [INFO]	
+[hprox] > [INFO]	
+[hprox] > [INFO]	====================
+[hprox] > [INFO]	Request Started
+[hprox] > [DEBUG]	Client Address 127.0.0.1:54412
+[hprox] > [DEBUG]	GET / HTTP/1.1
+[hprox] > [DEBUG]	Host                : 127.0.0.1:8080
+[hprox] > [DEBUG]	Connection          : keep-alive
+[hprox] > [DEBUG]	Cache-Control       : max-age=0
+[hprox] > [DEBUG]	Upgrade-Insecure-Requests: 1
+[hprox] > [DEBUG]	User-Agent          : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36
+[hprox] > [DEBUG]	Accept              : text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+[hprox] > [DEBUG]	Sec-Fetch-Site      : none
+[hprox] > [DEBUG]	Sec-Fetch-Mode      : navigate
+[hprox] > [DEBUG]	Sec-Fetch-User      : ?1
+[hprox] > [DEBUG]	Sec-Fetch-Dest      : document
+[hprox] > [DEBUG]	Accept-Encoding     : gzip, deflate, br
+[hprox] > [DEBUG]	Accept-Language     : en-US,en;q=0.9,ro;q=0.8
+[hprox] > [DEBUG]	Cookie              : PGADMIN_INT_KEY=61034cfb-c822-46ea-a60c-43a4b810042d; PGADMIN_LANGUAGE=en
+[urllib3.connectionpool] > [DEBUG]	Starting new HTTPS connection (1): docs.python.org:443
+[urllib3.connectionpool] > [DEBUG]	https://docs.python.org:443 "GET // HTTP/1.1" 421 28
+[hprox] > [INFO]	127.0.0.1 - - [27/Feb/2021 16:49:03] "GET / HTTP/1.1" 421 -
+[hprox] > [INFO]	Request Ended
+[hprox] > [INFO]	====================
+[hprox] > [INFO]	
+[hprox] > [INFO]	
+[hprox] > [INFO]	
+[hprox] > [INFO]	====================
+[hprox] > [INFO]	Request Started
+[hprox] > [DEBUG]	Client Address 127.0.0.1:54412
+[hprox] > [DEBUG]	GET /favicon.ico HTTP/1.1
+[hprox] > [DEBUG]	Host                : 127.0.0.1:8080
+[hprox] > [DEBUG]	Connection          : keep-alive
+[hprox] > [DEBUG]	Pragma              : no-cache
+[hprox] > [DEBUG]	Cache-Control       : no-cache
+[hprox] > [DEBUG]	User-Agent          : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36
+[hprox] > [DEBUG]	Accept              : image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+[hprox] > [DEBUG]	Sec-Fetch-Site      : same-origin
+[hprox] > [DEBUG]	Sec-Fetch-Mode      : no-cors
+[hprox] > [DEBUG]	Sec-Fetch-Dest      : image
+[hprox] > [DEBUG]	Referer             : http://127.0.0.1:8080/
+[hprox] > [DEBUG]	Accept-Encoding     : gzip, deflate, br
+[hprox] > [DEBUG]	Accept-Language     : en-US,en;q=0.9,ro;q=0.8
+[hprox] > [DEBUG]	Cookie              : PGADMIN_INT_KEY=61034cfb-c822-46ea-a60c-43a4b810042d; PGADMIN_LANGUAGE=en
+[urllib3.connectionpool] > [DEBUG]	Starting new HTTPS connection (1): docs.python.org:443
+[urllib3.connectionpool] > [DEBUG]	https://docs.python.org:443 "GET //favicon.ico HTTP/1.1" 421 28
+[hprox] > [INFO]	127.0.0.1 - - [27/Feb/2021 16:49:03] "GET /favicon.ico HTTP/1.1" 421 -
+[hprox] > [INFO]	Request Ended
+[hprox] > [INFO]	====================
+[hprox] > [INFO]	
+[hprox] > [INFO]	
+[hprox] > [INFO]	
+[hprox] > [INFO]	====================
+[hprox] > [INFO]	Request Started
+[hprox] > [INFO]	Request Ended
+[hprox] > [INFO]	====================
+[hprox] > [INFO]	
+[hprox] > [INFO]	
+[hprox] > [INFO]	
+[hprox] > [INFO]	====================
+[hprox] > [INFO]	Request Started
+[hprox] > [DEBUG]	Client Address 127.0.0.1:54416
+[hprox] > [DEBUG]	GET /favicon.ico HTTP/1.1
+[hprox] > [DEBUG]	Host                : 127.0.0.1:8080
+[hprox] > [DEBUG]	Connection          : keep-alive
+[hprox] > [DEBUG]	Pragma              : no-cache
+[hprox] > [DEBUG]	Cache-Control       : no-cache
+[hprox] > [DEBUG]	User-Agent          : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36
+[hprox] > [DEBUG]	Accept              : image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+[hprox] > [DEBUG]	Sec-Fetch-Site      : same-origin
+[hprox] > [DEBUG]	Sec-Fetch-Mode      : no-cors
+[hprox] > [DEBUG]	Sec-Fetch-Dest      : image
+[hprox] > [DEBUG]	Referer             : http://127.0.0.1:8080/
+[hprox] > [DEBUG]	Accept-Encoding     : gzip, deflate, br
+[hprox] > [DEBUG]	Accept-Language     : en-US,en;q=0.9,ro;q=0.8
+[hprox] > [DEBUG]	Cookie              : PGADMIN_INT_KEY=61034cfb-c822-46ea-a60c-43a4b810042d; PGADMIN_LANGUAGE=en
+[urllib3.connectionpool] > [DEBUG]	Starting new HTTPS connection (1): docs.python.org:443
+[urllib3.connectionpool] > [DEBUG]	https://docs.python.org:443 "GET //favicon.ico HTTP/1.1" 421 28
+[hprox] > [INFO]	127.0.0.1 - - [27/Feb/2021 16:49:03] "GET /favicon.ico HTTP/1.1" 421 -
+[hprox] > [INFO]	Request Ended
+[hprox] > [INFO]	====================
+[hprox] > [INFO]	
+[hprox] > [INFO]	
+[hprox] > [INFO]	
+[hprox] > [INFO]	====================
+[hprox] > [INFO]	Request Started
