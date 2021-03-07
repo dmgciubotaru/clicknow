@@ -1,10 +1,40 @@
 version: "3.9"
 services:
+
   logger:
-    build: .
+    build: clicklog
+    depends_on:
+      - postgres
     ports:
       - "80:80"
     volumes:
-    - ./:/log
+      - ./:/log
+    networks:
+      - private
+    environment:
+      PG_HOST: postgres
+      PG_PORT: 5432
+
+  postgres:
+    build: database
+    restart: always
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: pass
+      POSTGRES_DB: clicknow
+      TZ: 'GMT+2'
+      PGTZ: 'GMT+2'
+    networks:
+      - private
+    ports:
+      - "5432:5432"
+    volumes:
+      - pg_db:/var/lib/postgresql/data
+
+networks:
+  private:
+    external: false
+
 volumes:
   accesslog:
+  pg_db:
