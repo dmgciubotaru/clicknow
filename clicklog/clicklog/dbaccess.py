@@ -12,13 +12,13 @@ log = logging.getLogger("dbaccess")
 class DBConn:
     __slots__ = ["conn", "log"]
 
-    def __init__(self, host:str, port:int):
+    def __init__(self, host:str, port:int, password:str):
         retry = 3
         self.conn = None
+        log.info(f"Connecting to {host}:{port}")
         while self.conn is None:
             try:
-                log.info(f"Connecting to {host}:{port}")
-                self.conn = psycopg2.connect(dbname="clicknow", host=host, port=port, user="clicklog", password="pass")
+                self.conn = psycopg2.connect(dbname="clicknow", host=host, port=port, user="postgres", password=password)
             except psycopg2.OperationalError:
                 log.warning("Retry to connect")
                 time.sleep(1)

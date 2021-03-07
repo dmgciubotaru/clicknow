@@ -12,15 +12,16 @@ services:
     networks:
       - private
     environment:
-      PG_HOST: postgres
-      PG_PORT: 5432
+      POSTGRES_HOST: postgres
+      POSTGRES_PORT: 5432
+      POSTGRES_PASS: ${POSTGRES_PASS}
 
   postgres:
     build: database
     restart: always
     environment:
-      POSTGRES_USER: admin
-      POSTGRES_PASSWORD: pass
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: ${POSTGRES_PASS}
       POSTGRES_DB: clicknow
       TZ: 'GMT+2'
       PGTZ: 'GMT+2'

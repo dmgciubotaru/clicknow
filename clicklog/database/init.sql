@@ -1,15 +1,3 @@
--- Role: clicklog
--- DROP ROLE clicklog;
-
-CREATE ROLE clicklog WITH
-  LOGIN
-  NOSUPERUSER
-  NOINHERIT
-  NOCREATEDB
-  NOCREATEROLE
-  NOREPLICATION
-  ENCRYPTED PASSWORD 'md5f974ef8ee5162777236016c0a11d2af5';
-
 -- Table: public.clicklog
 
 -- DROP TABLE public.clicklog;

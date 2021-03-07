@@ -48,6 +48,8 @@ def run():
 
 
 if __name__ == "__main__":
-    db_host,db_port = os.getenv("PG_HOST","localhost"),int(os.getenv("PG_PORT","5432"))
-    conn = DBConn(db_host, db_port)
+    db_host = os.getenv("POSTGRES_HOST","localhost")
+    db_port = int(os.getenv("POSTGRES_PORT","5432"))
+    db_pass = os.getenv("POSTGRES_PASS")
+    conn = DBConn(db_host, db_port, db_pass)
     run()
